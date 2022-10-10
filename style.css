@@ -1,0 +1,17 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+td,
+th {
+  max-width: 25%;
+  margin: 10px;
+  padding: 10px;
+  max-height: 20%;
+}
+
+img {
+  max-width: 200px;
+}
