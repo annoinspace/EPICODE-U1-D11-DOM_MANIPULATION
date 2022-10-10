@@ -13,16 +13,7 @@ function changeBackgroundColour() {
 changeBackgroundColour()
 
 function changeAddress() {
-  document.getElementById("footer"[1]).innertext = "new address"
+  document.querySelector("#address").innerHTML = "this is the new address"
 }
 
 changeAddress()
-
-function changeAddressTry2() {
-  document
-    .querySelector("div")
-    .document.getElementById("footer > div:nth-child (2)").innerText =
-    "this is the new address"
-}
-
-changeAddressTry2()
