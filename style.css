@@ -1,3 +1,7 @@
+h1 {
+  text-align: center;
+}
+
 table,
 th,
 td {
@@ -6,12 +10,36 @@ td {
 
 td,
 th {
-  max-width: 25%;
-  margin: 10px;
-  padding: 10px;
+  margin: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   max-height: 20%;
 }
 
 img {
   max-width: 200px;
+}
+
+#footer {
+  margin-top: 10px;
+}
+
+#footer div {
+  text-align: center;
+}
+
+#mainSectionContainer {
+  display: flex;
+}
+#messageBoardContainer {
+  margin-left: 10px;
+  background-color: beige;
+}
+
+#messageBoard {
+  padding: 10px;
+}
+
+#messsageInput {
+  height: 100px;
 }
