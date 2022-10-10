@@ -17,7 +17,7 @@ th {
 }
 
 img {
-  max-width: 200px;
+  max-width: 180px;
 }
 
 #footer {
@@ -42,4 +42,9 @@ img {
 
 #messsageInput {
   height: 100px;
+}
+
+.bolder {
+  color: green;
+  font-weight: bolder;
 }
