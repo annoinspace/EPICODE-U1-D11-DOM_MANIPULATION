@@ -48,3 +48,11 @@ img {
   color: green;
   font-weight: bolder;
 }
+
+.hidden {
+  display: none;
+}
+
+button {
+  width: 90%;
+}

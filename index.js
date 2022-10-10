@@ -16,18 +16,22 @@ function changeAddress() {
   document.querySelector("#address").innerHTML = "this is the new address"
 }
 
-// changeAddress()
-
 function changeCSSLinks() {
-  for (let i = 0; i < document.querySelector("a").length; i++) {
-    document.querySelectorAll("a")[i].classList.add("bolder")
+  for (let node of document.querySelectorAll("a")) {
+    node.classList.add("bolder")
   }
 }
 
-changeCSSLinks()
+// changeCSSLinks()
 
-function changeCSSLinks2() {
-  for (let node of document.querySelectorAll("a")) {
-    node.classList.add("bolder")
+// function imageVisability() {
+//   for (let image of document.querySelectorAll("img")) {
+//     image.classList.toggle("hidden")
+//     }
+// }
+
+onclick = function imageVisability() {
+  for (let image of document.querySelectorAll("img")) {
+    image.classList.toggle("hidden")
   }
 }
