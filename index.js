@@ -24,14 +24,25 @@ function changeCSSLinks() {
 
 // changeCSSLinks()
 
-// function imageVisability() {
-//   for (let image of document.querySelectorAll("img")) {
-//     image.classList.toggle("hidden")
-//     }
-// }
-
 onclick = function imageVisability() {
   for (let image of document.querySelectorAll("img")) {
     image.classList.toggle("hidden")
+  }
+}
+
+function getRandomColour() {
+  let letters = "012345689ABDCEF"
+  let colour = ""
+  for (let i = 0; i < 6; i++) {
+    colour += letters[Math.floor(Math.random() * 16)]
+  }
+  return colour
+}
+
+function changePriceColour() {
+  let allPrices = document.querySelectorAll(".price")
+  for (let i = 0; i < allPrices.length; i++) {
+    let randomColour = getRandomColour()
+    allPrices[i].style.color = randomColour
   }
 }

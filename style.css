@@ -53,6 +53,9 @@ img {
   display: none;
 }
 
-button {
-  width: 90%;
+#imageToggleButton {
+  width: 150px;
+}
+
+.price {
 }
